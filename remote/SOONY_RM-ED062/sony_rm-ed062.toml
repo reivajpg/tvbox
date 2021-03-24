@@ -1,0 +1,113 @@
+###Ubicar este fichero en /storage/.config/rc_keymaps/
+#
+# brand:   Sony 
+# model:   RM-ED062
+# devices: TV Sony
+#
+# Javier Pelegrin, March 2021
+#
+# remote layout:
+# +-------------------------------------------------+
+# | (INPUD)  (SYNC MENU)    (POWER)                 |
+#
+# | (DIGITAL/ANALOG) (AUDIO)    (FULLSCREEN)        |
+#
+# | (1)                    (2)                  (3) |
+# | (4)                    (5)                  (6) |
+# | (7)                    (8)                  (9) |
+# | (GREEN MENU)           (0)           (SUBTITLE) |
+#
+# | (RED)        (GREEN)      (YELLOW)       (BLUE) |
+#
+#
+# | (GUIDE)               (UP)               (INFO) |
+#
+# | (LEFT)                (OK)              (RIGHT) |
+#
+# | (RETURN)             (DOWN)           (OPTIONS) |
+# |                                                 |
+# |                                                 |
+# |                      (HOME)                     |
+#
+# |   (VOLUMEUP)         (REPIT)       (TV_VOL_UP)  |
+#
+# |   (VOLUMEDOWN)       (MUTE)      (TV_VOL_DOWN)  |
+#
+#
+# | (REWIND)              (PLAY)      (FASTFORWARD) |
+# | (TITLE)        (REC)         (PAUSE)     (STOP) |
+#
+# +-------------------------------------------------+
+
+
+[[protocols]]
+name = "sony_RM-ED062_0"
+protocol = "sony"
+variant = "sony12"
+[protocols.scancodes]
+0x10015 = "KEY_POWER"#OKK
+0x10025 = "KEY_TV_SOURCE"#OKK
+
+0X10017 = "KEY_AUDIO"#OKK
+
+0x10000 = "KEY_NUMERIC_1"#OKK
+0x10001 = "KEY_NUMERIC_2"#OKK
+0x10002 = "KEY_NUMERIC_3"#OKK
+0x10003 = "KEY_NUMERIC_4"#OKK
+0x10004 = "KEY_NUMERIC_5"#OKK
+0x10005 = "KEY_NUMERIC_6"#OKK
+0x10006 = "KEY_NUMERIC_7"#OKK
+0x10007 = "KEY_NUMERIC_8"#OKK
+0x10008 = "KEY_NUMERIC_9"#OKK
+0x10009 = "KEY_NUMERIC_0"#OKK
+
+0x1003f = "KEY_GREEN_MENU"#OKK
+
+0x1003a = "KEY_INFO"#OKK
+
+0x10060 = "KEY_HOME"#OKK
+
+0x10012 = "KEY_VOLUMEUP"#OKK
+0x10013 = "KEY_VOLUMEDOWN"#OKK
+
+0x1003b = "KEY_REPIT"#OKK
+
+0x10014 = "KEY_MUTE"#OKK
+
+0x10010 = "KEY_CHANELUP"#OKK
+0x10011 = "KEY_CHANELDOWN"#OKK
+
+
+
+[[protocols]]
+name = "sony_RM-ED062_1"
+protocol = "sony"
+variant = "sony15"
+[protocols.scancodes]
+
+0x1a0058 = "KEY_SYNC_MENU"#OKK
+0X77000d = "KEY_DIGITAL/ANALOG"#OKK
+0Xa4003d = "KEY_FULLSCREN"#OKK
+
+0x970028 = "KEY_SUBTITLE"#OKK
+
+0x970025 = "KEY_RED"#OKK
+0x970026 = "KEY_GREEN"#OKK
+0x970027 = "KEY_YELLOW"#OKK
+0x970024 = "KEY_BLUE"#OKK
+
+0xa4005b = "KEY_GUIDE"#OKK
+
+0x970023 = "KEY_RETURN"#OKK
+0x970036 = "KEY_OPTION"#OKK
+
+0x97001b = "KEY_REWIND"#OKK
+0x97001a = "KEY_PLAY"#OKK
+0x97001c = "KEY_FASTFORWARD"#OKK
+
+0x1a0065 = "KEY_TITLE"#OKK
+0x970020 = "KEY_REC"#OKK
+0x970019 = "KEY_PAUSE"#OKK
+0x970018 = "KEY_STOP"#OKK
+
+

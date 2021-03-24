@@ -1,0 +1,48 @@
+###Ubicar este fichero en /storage/.config/rc_keymaps/
+#
+# brand:   Sony 
+# model:   RM-ADP090
+# devices: Sony BDV-E2100 Home Cinema System
+#
+# Javier Pelegrin, March 2021
+#----------------------------------------------+
+
+[[protocols]]
+name = "GHIA"
+protocol = "nec"
+#variant = ""
+[protocols.scancodes]
+0x140 = "KEY_POWER"
+#0x = "KEY_SLEEP"
+0x14d = "KEY_PLAYPAUSE"
+0x141 = "KEY_MUTE"
+
+
+0x14c = "KEY_VOLUMEDOWN"
+0x111 = "KEY_VOLUMEUP"
+
+
+0x116 = "KEY_UP"
+0x151 = "KEY_LEFT"
+0x113 = "KEY_OK"
+0x150 = "KEY_RIGHT"
+0x11a = "KEY_DOWN"
+
+0x110 = "KEY_MENU"
+0x119 = "KEY_BACK"
+0x118 = "KEY_HOME"
+
+0x14e = "KEY_1"
+0x10d = "KEY_2"
+0x10c = "KEY_3"
+0x14a = "KEY_4"
+0x109 = "KEY_5"
+0x108 = "KEY_6"
+0x146 = "KEY_7"
+0x105 = "KEY_8"
+0x104 = "KEY_9"
+0x142 = "KEY_DELETE"
+0x101 = "KEY_0"
+0x100 = "KEY_MOUSE"
+
+

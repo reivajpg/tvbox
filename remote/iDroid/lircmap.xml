@@ -1,0 +1,26 @@
+<lircmap>
+<remote device="idroid">
+ <power>KEY_POWER</power>
+ <mute>KEY_MUTE</mute>
+ <volumeminus>KEY_VOLUMEDOWN</volumeminus>
+ <volumeplus>KEY_VOLUMEUP</volumeplus>
+ <menu>KEY_MENU</menu>
+ <up>KEY_UP</up>
+ <left>KEY_LEFT</left>
+ <right>KEY_RIGHT</right>
+ <down>KEY_DOWN</down>
+ <select>KEY_OK</select>
+ <start>KEY_HOME</start>
+ <back>KEY_EXIT</back>
+ <one>KEY_NUMERIC_1</one>
+ <two>KEY_NUMERIC_2</two>
+ <three>KEY_NUMERIC_3</three>
+ <four>KEY_NUMERIC_4</four>
+ <five>KEY_NUMERIC_5</five>
+ <six>KEY_NUMERIC_6</six>
+ <seven>KEY_NUMERIC_7</seven>
+ <eight>KEY_NUMERIC_8</eight>
+ <nine>KEY_NUMERIC_9</nine>
+ <zero>KEY_NUMERIC_0</zero>
+</remote>
+</lircmap>
